@@ -36,7 +36,7 @@ export function apiEndpoint (endpoint, qs) {
   return `${config.api.url}${endpoint}${query}`;
 }
 
-export function apiOptions(option = {}) {
+export function apiOptions(options = {}) {
   const {
     method = 'GET',
     headers = {

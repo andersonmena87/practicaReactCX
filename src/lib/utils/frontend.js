@@ -2,7 +2,7 @@
 import { isDefined } from './is';
 
 export function getNewState(state, newState) {
-  return Object.assing({}, state, newState);
+  return Object.assign({}, state, newState);
 }
 
 export function isFirstRender(items) {
